@@ -210,12 +210,6 @@ B58UUID works in modern browsers when bundled with tools like:
 
 Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) for details.
 
-## Publishing
-
-See [PUBLISHING.md](./PUBLISHING.md) for instructions on how to publish this package to npm.
-
-**Note**: If you have 2FA enabled on npm, see [2FA_SETUP.md](./2FA_SETUP.md) for automated publishing setup.
-
 ## Changelog
 
 See [CHANGELOG.md](./CHANGELOG.md) for release history.
