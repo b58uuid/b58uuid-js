@@ -1,0 +1,19 @@
+# Source files
+src/
+tests/
+
+# Config files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+
+# Development files
+.DS_Store
+*.log
+node_modules/
+
+# CI/CD
+.github/
+
+# Build artifacts (keep dist/)
+*.tsbuildinfo
