@@ -7,11 +7,11 @@
 
 High-performance Base58-encoded UUID library for **JavaScript** and **TypeScript** with zero runtime dependencies.
 
-> **39% shorter** than standard UUIDs • **URL-safe** • **Unambiguous** • **Fast**
+> **Significantly shorter** than standard UUIDs • **URL-safe** • **Unambiguous** • **Fast**
 
 ## Features
 
-- ✅ **39% more compact**: 22 characters instead of 36
+- ✅ **Significantly shorter**: 22 characters instead of 36
 - ✅ **URL-safe**: No special characters that need escaping
 - ✅ **Unambiguous**: Uses Bitcoin's Base58 alphabet (excludes 0, O, I, l)
 - ✅ **Fast**: Optimized encoding/decoding with BigInt
@@ -26,7 +26,7 @@ High-performance Base58-encoded UUID library for **JavaScript** and **TypeScript
 ```
 Standard UUID:  550e8400-e29b-41d4-a716-446655440000  (36 characters)
 B58UUID:        BWBeN28Vb7cMEx7Ym8AUzs                (22 characters)
-                                                       ↑ 39% shorter!
+                                                       ↑ Significantly shorter!
 ```
 
 ## Installation
@@ -222,9 +222,10 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 B58UUID is available in multiple languages:
 
-- **Rust**: [b58uuid-rs](https://github.com/b58uuid/b58uuid-rs) - `cargo add b58uuid`
-- **Go**: [b58uuid-go](https://github.com/b58uuid/b58uuid-go) - `go get github.com/b58uuid/b58uuid-go`
-- **Java**: [b58uuid-java](https://github.com/b58uuid/b58uuid-java) - Maven/Gradle
+- **Go**: [b58uuid-go](https://github.com/b58uuid/b58uuid-go) - Available on [pkg.go.dev](https://pkg.go.dev/github.com/b58uuid/b58uuid-go)
+- **Rust**: [b58uuid-rs](https://github.com/b58uuid/b58uuid-rs) - Available on [crates.io](https://crates.io/crates/b58uuid)
+- **Python**: [b58uuid-py](https://github.com/b58uuid/b58uuid-py) - Available on [PyPI](https://pypi.org/project/b58uuid/)
+- **Java**: [b58uuid-java](https://github.com/b58uuid/b58uuid-java) - Available on [Maven Central](https://central.sonatype.com/artifact/io.b58uuid/b58uuid)
 
 ## Links
 
